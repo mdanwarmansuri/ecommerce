@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title> Online Shopping - Sign in </title>        
+        <style>
+            body{
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .header 
+            {
+                overflow: hidden;
+                padding: 20px 10px;
+            }
+            .header a 
+            {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 25px;
+                border-radius: 4px;
+            }    
+            .header a.logo 
+            {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .header a:hover 
+            {
+                background-color: #ddd;
+                color: rgb(0, 0, 0);
+                color: p
+            }
+            .header a.active 
+            {
+                background-color: dodgerblue;
+                color: white;
+            }       
+            #payment h3{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(219, 187, 144);
+                font-size: xx-large;
+            }     
+            #payment td
+            {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 18px;
+            }
+            #payment tr, td{
+                padding: 10px;
+            }
+            #payment table{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2%;                
+                width: 20%;
+                padding: 20px;
+                color: white; 
+                background-color: rgba(0, 0, 128, 0.198);
+            }
+            #payment a{
+                text-decoration: none;
+                color: white;
+            }            
+            #payment a:hover{
+                color: yellowgreen;
+            }
+            input{width: 100%; padding: 6px;}
+            input[type = submit] {cursor: pointer;}
+            #submit{
+                width: 25%;
+            }
+            button a{
+                padding:10px;
+                margin:10px;
+                color:black;
+                text-decoration: none;
+
+            }
+            button a:hover{
+                color:blue;
+            }
+            button{
+                padding:8px;
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+    <body background="Images/4597119.png">        
+        <div class="header">
+            <a href="1 home.php" class="logo" href="1 home.php"><img src="Images/logo.jpeg" width="60"></a>
+            <div>
+                <!-- <a href="1 home.php"> Home </a> -->
+                <!-- <a href="2 signup.html"> Sign up </a> -->
+                <!-- <a class="active" href="3 signin.html"> Sign in </a> -->
+                <!-- <a href="4 order.html"> Search </a>  -->
+                <!-- <a href="5 address.html"> Address </a>  -->
+                <a href="6 contact.php"> Contact </a>
+                <a href="7 about.php"> About </a>
+            </div>
+        </div>
+        <div id="payment">
+            <center><h3> Payment Method </h3></center>
+            <table>
+                <tr>
+                    <td><img src="Images/visa.png" width="60" ></td>                    
+                    <td><a href="https://www.visa.co.in/pay-with-visa/find-a-card/credit-cards.html"> Visacard </a></td>                    
+                </tr>
+                <tr>
+                    <td><img src="Images/MasterCard_Logo.png" width="60"></td>
+                    <td><a href="https://www.mastercard.co.in/en-in.html"> MasterCard </a></td>
+                </tr>
+                <tr>
+                    <td><img src="Images/paypal_PNG22.png" width="60"></td>
+                    <td><a href="https://www.paypal.com/in/signin"> PayPal </a></td>                    
+                </tr>
+                <tr>
+                    <td><img src="Images/upi-icon.png" width="60"></td>
+                    <td><a href="https://www.bhimupi.org.in/"> UPI ID </a></td>
+                </tr>
+            </table>
+            <br>
+            
+        </div>
+        <center><button><a href="billing.php">Back</a> </button></center>
